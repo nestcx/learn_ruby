@@ -14,8 +14,7 @@
 # (There are a few more rules for edge cases, and there are regional variants too, but that should be enough to understand the tests.)
 #
 # See <http://en.wikipedia.org/wiki/Pig_latin> for more details.
-#
-#
+
 
 require "pig_latin"
 
@@ -61,7 +60,7 @@ describe "#translate" do
   end
 
   it "translates many words" do
-    s = translate("the quick brown fox")
+    s = translate("acquisition is the key to life")
     expect(s).to eq("ethay ickquay ownbray oxfay")
   end
 
